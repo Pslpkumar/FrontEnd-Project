@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  text-align: center;
+}
+
+body {
+  background-color: bisque;
+  color: black;
+}
+/* index  */
+
+.header {
+  height: 40px;
+  width: 100%;
+  background-color: rgb(153, 87, 87);
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+}
+.header :hover {
+  color: rgb(10, 10, 7);
+}
+.header ul li {
+  display: inline;
+  outline: auto;
+  padding: 5px;
+  word-spacing: 5%;
+}
+.header ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* login form */
+.form {
+  height: auto;
+  width: 40%;
+  background-color: rgb(132, 100, 161);
+  margin: auto;
+  text-align: center;
+  border: 2px solid black;
+  padding: 10px;
+}
+.form input {
+  display: inline;
+  margin: 3px;
+  width: 250px;
+  height: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* register form */
+.Rform {
+  display: block;
+  height: 50%;
+  width: 30%;
+  background-color: rgb(111, 124, 51);
+  margin: auto;
+  text-align: center;
+  padding: 1px;
+  border: 2px solid rgb(37, 164, 223);
+}
+
+.Rform textarea {
+  width: 250px;
+  height: 30px;
+}
+
+.Rform a {
+  text-decoration: none;
+}

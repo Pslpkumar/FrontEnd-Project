@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration page</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <!-- <li><a href="login.html">Login</a></li> -->
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="index.html">home</a></li>
+      </ul>
+    </div>
+
+    <div class="Rform">
+      <h1>Registration</h1>
+
+      <form action="get">
+        <div id="Rdetails">
+          <label for="">Username :</label
+          ><input type="text" name="userName" id="username" required="true" />
+        </div>
+        <div>
+          <label for="">Name :</label
+          ><input type="text" name="Name" id="name" required="true" />
+        </div>
+        <div>
+          <label for="">Password :</label
+          ><input
+            type="password"
+            name="password"
+            id="password"
+            required="true"
+          />
+        </div>
+        <div>
+          <label for="">Email :</label
+          ><input type="email" name="email" id="email" />
+        </div>
+        <div>
+          <label for="">Mobile :</label
+          ><input type="number" name="mobile" id="mobile" />
+        </div>
+
+        <div>
+          <label for="">Gender</label>
+          <input type="radio" name="gender" id="gender_M" required="true" />Male
+          <input
+            type="radio"
+            name="gender"
+            id="gender_F"
+            required="true"
+          />Female
+          <input
+            type="radio"
+            name="gender"
+            id="gender_O"
+            required="true"
+          />others
+        </div>
+        <div>
+          <label for="">Specialized In:</label>
+          <input
+            type="checkbox"
+            name="JavaScipt"
+            id="javascript_1"
+            required="true"
+          />Javascript
+          <input
+            type="checkbox"
+            name="ReactJS"
+            id="ReactJS_1"
+            required="true"
+          />ReactJS
+          <input
+            type="checkbox"
+            name="Angular"
+            id="Angular_1"
+            required="true"
+          />Angular
+        </div>
+
+        <div>
+          <address>
+            <label>Address</label>
+            <textarea
+              name="address-area"
+              id="address-area"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </address>
+        </div>
+
+        <div>
+          <label for="State"> State </label>
+
+          <select name="text" id="statename">
+            <option value="text">Andhra Pradesh</option>
+            <option value="text">Telangana</option>
+            <option value="text">Tamil Nadu</option>
+            <option value="text">Karnataka</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="">Date of Birth</label>
+          <input type="datetime-local" value="date" id="dob" />
+        </div>
+        <br />
+        <div>
+          <input type="submit" value="Register" id="registerbutton" />
+        </div>
+      </form>
+      Already have an account?<a href="login.html"> Login </a>
+    </div>
+  </body>
+</html>
